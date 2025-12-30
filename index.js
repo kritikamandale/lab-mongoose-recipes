@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const Recipe = require("./models/Recipe.model");
 const data = require("./data.json");
 
-mongoose.connect("mongodb+srv://kritikamandale_db_user:I9PosQPG2jWEJ7fw@cluster0.6eccz9c.mongodb.net/recipie_app")
+mongoose.connect("")
   .then(() => {
     console.log("Connected to DB");
     
